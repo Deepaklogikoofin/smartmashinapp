@@ -17,35 +17,25 @@
         android:text="Name"
         android:textFontWeight="300"
         android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="@+id/toggleButton1"
+        app:layout_constraintBottom_toBottomOf="@+id/switch1"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/toggleButton1"
+        app:layout_constraintTop_toTopOf="@+id/switch1"
         tools:ignore="MissingConstraints" />
 
-    <ToggleButton
-        android:id="@+id/toggleButton1"
+    <Switch
+        android:id="@+id/switch1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="64dp"
-        android:layout_marginTop="10dp"
-        android:text="ToggleButton"
-        android:textOn="On"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="36dp"
+        android:checked="true"
+        android:switchMinWidth="56dp"
+        android:text="Switch1:"
+        android:textOff="OFF"
+        android:textOn="ON"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintLeft_toRightOf="@+id/tvtext"
         app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="MissingConstraints" />
-
-    <ToggleButton
-        android:id="@+id/toggleButton2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="36dp"
-        android:text="ToggleButton"
-        android:textOff="Off"
-        app:layout_constraintBottom_toBottomOf="@+id/toggleButton1"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintLeft_toRightOf="@+id/toggleButton1"
-        app:layout_constraintTop_toTopOf="@+id/toggleButton1"
-        app:layout_constraintVertical_bias="0.0"
         tools:ignore="MissingConstraints" />
 
     <com.mikhaellopez.circularimageview.CircularImageView
@@ -54,9 +44,10 @@
         android:layout_height="wrap_content"
         android:background="@drawable/images"
         tools:ignore="MissingConstraints"
+        android:layout_marginTop="10sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/toggleButton2"
+        app:layout_constraintTop_toBottomOf="@+id/switch1"
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="134dp" />
 

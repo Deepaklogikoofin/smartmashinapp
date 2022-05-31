@@ -3,7 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Project-SmartMashinApp/SmartMashinApp/app/src/main/res/layout/activity_indore_temperature.xml" value="0.1796875" />
+        <entry key="..\:/Project-SmartMashinApp/SmartMashinApp/app/src/main/res/drawable/ic_baseline_cloud_queue_24.xml" value="0.165" />
+        <entry key="..\:/Project-SmartMashinApp/SmartMashinApp/app/src/main/res/layout/activity_indore_temperature.xml" value="0.22" />
         <entry key="..\:/Project-SmartMashinApp/SmartMashinApp/app/src/main/res/layout/activity_main.xml" value="0.22" />
       </map>
     </option>
