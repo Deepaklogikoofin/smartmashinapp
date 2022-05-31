@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 
 import org.com.smartmashinapp.databinding.ActivityMainBinding;
@@ -21,6 +22,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         binding.card1.setOnClickListener(this);
         binding.card2.setOnClickListener(this);
         binding.card3.setOnClickListener(this);
+        Log.i("","");
 
 
 
